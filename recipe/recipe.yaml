@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fmodpy
-  version: 1.7.4
+  version: "1.7.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fmodpy-${{ version }}.tar.gz
-  sha256: 557bb4e1bbf560f8ea052eddec7fafeb04f26b4decb01b68a3e8a56b34eeea95
+  sha256: f8dcbb99e8207f64e3a74c88c9ee3c0109d991d82eea2bb96b4f3208157e7baf
 
 build:
   number: 0
